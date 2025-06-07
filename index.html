@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="split-container">
+    <div class="left-panel">
+      <div class="overlay">
+        <h1>Let's Chat</h1>
+        <p>Have a dought regarding any project would like to contact for any other queries.</p>
+        <p>Feel free to send me a message in the contact form.</p>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <form id="contactForm">
+        <h2>Contact</h2>
+        <p class="required-note">* Required</p>
+        <input type="text" id="name" placeholder="Name *" required>
+        <input type="email" id="email" placeholder="Email *" required>
+        <input type="text" id="company" placeholder="Company">
+        <input type="tel" id="phone" placeholder="Phone">
+        <textarea id="message" placeholder="Message"></textarea>
+        <button type="submit">SUBMIT</button>
+        <p class="success" id="successMessage"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
